@@ -1,28 +1,37 @@
 <template>
-  <div id="app">
-    <img alt="Kdu logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Kdu.js App"/>
-  </div>
+  <section>
+    <div class="container">
+      <div class="box top-left">
+        <div class="item">Top Left</div>
+      </div>
+      <div class="box top-center">
+        <div class="item">Top Center</div>
+      </div>
+      <div class="box top-right">
+        <div class="item">Top Right</div>
+      </div>
+      <div class="box center-left">
+        <div class="item">Center Left</div>
+      </div>
+      <div class="box center">
+        <div class="item">Center</div>
+      </div>
+      <div class="box center-right">
+        <div class="item">Center Right</div>
+      </div>
+      <div class="box bottom-left">
+        <div class="item">Bottom Left</div>
+      </div>
+      <div class="box bottom-center">
+        <div class="item">Bottom Center</div>
+      </div>
+      <div class="box bottom-right">
+        <div class="item">Bottom Right</div>
+      </div>
+    </div>
+  </section>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.kdu'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import url(./styles/App.css);
 </style>
